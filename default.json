@@ -8,12 +8,13 @@
         "Renovate configuration created by @ITProKyle"
     ],
     "extends": [
-        "config:recommended",
-        "docker:pinDigests",
+        ":dependencyDashboard",
         ":pinDevDependencies",
-        ":rebaseStalePrs",
         ":prImmediately",
-        ":renovatePrefix"
+        ":rebaseStalePrs",
+        ":renovatePrefix",
+        "config:recommended",
+        "docker:pinDigests"
     ],
     "platformAutomerge": true,
     "separateMinorPatch": false,
