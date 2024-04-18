@@ -1,2 +1,3 @@
 # renovate
+
 Renovate presets.
