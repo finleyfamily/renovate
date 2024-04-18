@@ -1,0 +1,13 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "automerge github actions and runner updates",
+    "packageRules": [
+        {
+            "automerge": true,
+            "automergeType": "pr",
+            "matchManagers": [
+                "github-actions"
+            ]
+        }
+    ]
+}

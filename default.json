@@ -15,7 +15,8 @@
         ":renovatePrefix",
         "config:recommended",
         "docker:pinDigests",
-        "github>finleyfamily/renovate//presets/add-labels"
+        "github>finleyfamily/renovate//presets/add-labels",
+        "github>finleyfamily/renovate//presets/automerge-github-actions"
     ],
     "packageRules": [
         {
