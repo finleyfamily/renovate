@@ -1,0 +1,71 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "addLabels": [
+        "renovate"
+    ],
+    "description": "preset to apply labels to renovate PRs",
+    "packageRules": [
+        {
+            "addLabels": [
+                "changelog:skip",
+                "dev-dependencies"
+            ],
+            "description": "add labels - dev-dependencies",
+            "matchDepTypes": [
+                "dev",
+                "devDependencies",
+                "dev-dependencies",
+                "docs",
+                "lint",
+                "linters",
+                "test"
+            ],
+            "prPriority": -1
+        },
+        {
+            "addLabels": [
+                "dependencies"
+            ],
+            "description": "add labels - dependencies",
+            "matchDepTypes": [
+                "dependencies"
+            ]
+        },
+        {
+            "addLabels": [
+                "renovate:digest"
+            ],
+            "description": "add labels - digest",
+            "matchUpdateTypes": [
+                "digest"
+            ]
+        },
+        {
+            "addLabels": [
+                "renovate:major"
+            ],
+            "description": "add labels - major",
+            "matchUpdateTypes": [
+                "major"
+            ]
+        },
+        {
+            "addLabels": [
+                "renovate:minor"
+            ],
+            "description": "add labels - minor",
+            "matchUpdateTypes": [
+                "minor"
+            ]
+        },
+        {
+            "addLabels": [
+                "renovate:patch"
+            ],
+            "description": "add labels - patch",
+            "matchUpdateTypes": [
+                "patch"
+            ]
+        }
+    ]
+}
