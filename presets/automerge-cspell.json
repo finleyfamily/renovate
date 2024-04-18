@@ -1,0 +1,22 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "group all `cspell` related packages together and enable automerge",
+    "packageRules": [
+        {
+            "automerge": true,
+            "automergeType": "pr",
+            "groupName": "cspell",
+            "matchManagers": [
+                "npm"
+            ],
+            "matchPackageNames": [
+                "@itprokyle/cspell-dict",
+                "cspell"
+            ],
+            "matchPackagePrefixes": [
+                "@cspell/",
+                "cspell-"
+            ]
+        }
+    ]
+}
