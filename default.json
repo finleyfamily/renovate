@@ -14,7 +14,31 @@
         ":rebaseStalePrs",
         ":renovatePrefix",
         "config:recommended",
-        "docker:pinDigests"
+        "docker:pinDigests",
+        "github>finleyfamily/renovate//presets/add-labels"
+    ],
+    "packageRules": [
+        {
+            "addLabels": [
+                "dev-dependencies"
+            ],
+            "automerge": true,
+            "automergeType": "pr",
+            "description": "automerge dev dependencies",
+            "gitLabIgnoreApprovals": true,
+            "matchDepTypes": [
+                "dev",
+                "dev-dependencies",
+                "devDependencies",
+                "docs",
+                "lint",
+                "linters",
+                "test",
+                "types"
+            ],
+            "prPriority": -1,
+            "rangeStrategy": "bump"
+        }
     ],
     "platformAutomerge": true,
     "separateMinorPatch": false,
