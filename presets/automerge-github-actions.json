@@ -3,6 +3,9 @@
     "description": "automerge github actions and runner updates",
     "packageRules": [
         {
+            "addLabels": [
+                "changelog:skip"
+            ],
             "automerge": true,
             "automergeType": "pr",
             "matchManagers": [

@@ -3,6 +3,9 @@
     "description": "group all `cspell` related packages together and enable automerge",
     "packageRules": [
         {
+            "addLabels": [
+                "changelog:skip"
+            ],
             "automerge": true,
             "automergeType": "pr",
             "groupName": "cspell",
