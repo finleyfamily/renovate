@@ -8,6 +8,10 @@
             ],
             "automerge": true,
             "automergeType": "pr",
+            "ignorePaths": [
+                "action.yaml",
+                "action.yml"
+            ],
             "matchManagers": [
                 "github-actions"
             ]

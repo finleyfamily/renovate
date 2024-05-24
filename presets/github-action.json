@@ -1,0 +1,53 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "manage dependency updates for projects that publish a Github Action",
+    "packageRules": [
+        {
+            "addLabels": [
+                "changelog:major"
+            ],
+            "description": "trigger major release of a a Github Action",
+            "ignorePaths": [
+                "**/.github/workflows/**"
+            ],
+            "matchManagers": [
+                "github-actions"
+            ],
+            "matchUpdateTypes": [
+                "major"
+            ]
+        },
+        {
+            "addLabels": [
+                "changelog:minor"
+            ],
+            "automerge": true,
+            "description": "trigger minor release of a a Github Action",
+            "ignorePaths": [
+                "**/.github/workflows/**"
+            ],
+            "matchManagers": [
+                "github-actions"
+            ],
+            "matchUpdateTypes": [
+                "minor"
+            ]
+        },
+        {
+            "addLabels": [
+                "changelog:patch"
+            ],
+            "automerge": true,
+            "description": "trigger patch release of a a Github Action",
+            "ignorePaths": [
+                "**/.github/workflows/**"
+            ],
+            "matchManagers": [
+                "github-actions"
+            ],
+            "matchUpdateTypes": [
+                "patch"
+            ]
+        }
+    ]
+}
