@@ -17,30 +17,11 @@
         "docker:pinDigests",
         "github>finleyfamily/renovate//presets/add-labels",
         "github>finleyfamily/renovate//presets/automerge-cspell",
-        "github>finleyfamily/renovate//presets/automerge-github-actions"
-    ],
-    "packageRules": [
-        {
-            "addLabels": [
-                "dev-dependencies"
-            ],
-            "automerge": true,
-            "automergeType": "pr",
-            "description": "automerge dev dependencies",
-            "gitLabIgnoreApprovals": true,
-            "matchDepTypes": [
-                "dev",
-                "dev-dependencies",
-                "devDependencies",
-                "docs",
-                "lint",
-                "linters",
-                "test",
-                "types"
-            ],
-            "prPriority": -1,
-            "rangeStrategy": "bump"
-        }
+        "github>finleyfamily/renovate//presets/automerge-github-actions",
+        "github>finleyfamily/renovate//presets/automerge-manager(npm)",
+        "github>finleyfamily/renovate//presets/automerge-manager(poetry)",
+        "github>finleyfamily/renovate//presets/semantic-commits(npm)",
+        "github>finleyfamily/renovate//presets/semantic-commits(poetry)"
     ],
     "platformAutomerge": true,
     "separateMinorPatch": false,
