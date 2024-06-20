@@ -1,0 +1,35 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "manage python dependencies for a project that publishes a python package",
+    "packageRules": [
+        {
+            "description": "only change the dependency requirement when the range has been exceeded",
+            "matchCategories": [
+                "python"
+            ],
+            "matchDepTypes": [
+                "dependencies"
+            ],
+            "rangeStrategy": "update-lockfile"
+        },
+        {
+            "addLabels": [
+                "changelog:skip"
+            ],
+            "automerge": true,
+            "description": "only change the dependency requirement when the range has been exceeded (in-range)",
+            "gitLabIgnoreApprovals": true,
+            "matchDepTypes": [
+                "dependencies"
+            ],
+            "matchManagers": [
+                "poetry"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "semanticCommitType": "chore"
+        }
+    ]
+}
