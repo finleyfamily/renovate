@@ -9,6 +9,7 @@
     ],
     "extends": [
         ":dependencyDashboard",
+        ":maintainLockFilesWeekly",
         ":prImmediately",
         ":rebaseStalePrs",
         ":renovatePrefix",
