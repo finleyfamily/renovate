@@ -9,7 +9,6 @@
     ],
     "extends": [
         ":dependencyDashboard",
-        ":pinDevDependencies",
         ":prImmediately",
         ":rebaseStalePrs",
         ":renovatePrefix",
@@ -17,6 +16,7 @@
         "docker:pinDigests",
         "github>finleyfamily/renovate//presets/add-labels",
         "github>finleyfamily/renovate//presets/automerge-cspell",
+        "github>finleyfamily/renovate//presets/automerge-devcontainer",
         "github>finleyfamily/renovate//presets/automerge-github-actions",
         "github>finleyfamily/renovate//presets/automerge-manager(npm)",
         "github>finleyfamily/renovate//presets/automerge-manager(poetry)",
