@@ -1,0 +1,15 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "require Dependency Dashboard approval for npm <code>engines</code> updates",
+    "packageRules": [
+        {
+            "dependencyDashboardApproval": true,
+            "matchDepTypes": [
+                "engines"
+            ],
+            "matchManagers": [
+                "npm"
+            ]
+        }
+    ]
+}
