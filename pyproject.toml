@@ -9,4 +9,4 @@ package-mode = false
 python = "^3.12"
 
 [tool.poetry.group.dev.dependencies]
-pre-commit = "^3.7.1"
+pre-commit = "^3.8.0"
