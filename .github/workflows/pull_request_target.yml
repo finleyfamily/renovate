@@ -5,4 +5,4 @@ on:
 
 jobs:
   workflows:
-    uses: finleyfamily/workflows/.github/workflows/pr.enforce-branch-name.yml@master
+    uses: finleyfamily/workflows/.github/workflows/pull_request_target.yml@master
