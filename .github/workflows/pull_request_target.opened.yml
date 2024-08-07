@@ -1,3 +1,5 @@
+name: pull_request_target (opened)
+
 on:
   pull_request_target:
     types:
@@ -5,5 +7,5 @@ on:
       - reopened
 
 jobs:
-  assign-author-to-pr:
+  workflows:
     uses: finleyfamily/workflows/.github/workflows/pr.assign-author.yml@master
