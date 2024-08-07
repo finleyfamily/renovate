@@ -9,8 +9,7 @@
                 "{{arg0}}"
             ],
             "platformAutomerge": true,
-            "rangeStrategy": "bump",
-            "semanticCommitType": "chore"
+            "rangeStrategy": "bump"
         },
         {
             "automerge": false,

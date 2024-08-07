@@ -1,0 +1,6 @@
+on:
+  pull_request_target:
+
+jobs:
+  enforce-branch-name:
+    uses: finleyfamily/workflows/.github/workflows/pr.enforce-branch-name.yml@master

@@ -15,8 +15,7 @@
             "matchUpdateTypes": [
                 "lockFileMaintenance"
             ],
-            "platformAutomerge": true,
-            "semanticCommitType": "chore"
+            "platformAutomerge": true
         }
     ]
 }

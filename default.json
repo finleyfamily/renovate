@@ -21,11 +21,10 @@
         "github>finleyfamily/renovate//presets/automerge-github-actions",
         "github>finleyfamily/renovate//presets/automerge-manager(npm)",
         "github>finleyfamily/renovate//presets/automerge-manager(poetry)",
-        "github>finleyfamily/renovate//presets/lock-file-maintenance",
-        "github>finleyfamily/renovate//presets/semantic-commits(npm)",
-        "github>finleyfamily/renovate//presets/semantic-commits(poetry)"
+        "github>finleyfamily/renovate//presets/lock-file-maintenance"
     ],
     "platformAutomerge": true,
+    "semanticCommits": "disabled",
     "separateMinorPatch": false,
     "separateMultipleMajor": true
 }
