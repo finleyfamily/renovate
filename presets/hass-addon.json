@@ -20,7 +20,8 @@
             "groupName": "docker:hassio-addons",
             "matchPackageNames": [
                 "ghcr.io/hassio-addons/debian-base"
-            ]
+            ],
+            "pinDigests": false
         },
         {
             "automerge": true,
