@@ -1,6 +1,9 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "description": "manage dependency updates for projects that publish a Github Action",
+    "extends": [
+        "customManagers:githubActionsVersions"
+    ],
     "packageRules": [
         {
             "addLabels": [

@@ -13,6 +13,8 @@
         ":rebaseStalePrs",
         ":renovatePrefix",
         "config:recommended",
+        "customManagers:dockerfileVersions",
+        "customManagers:makefileVersions",
         "docker:pinDigests",
         "github>finleyfamily/renovate//presets/add-labels",
         "github>finleyfamily/renovate//presets/approval.npm-engines",

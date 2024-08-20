@@ -14,6 +14,16 @@
             "platformAutomerge": true
         },
         {
+            "description": "pin the digest of devcontainer images (disabled by the docker:pinDigests preset)",
+            "matchDepTypes": [
+                "image"
+            ],
+            "matchManagers": [
+                "devcontainer"
+            ],
+            "pinDigests": false
+        },
+        {
             "description": "don't pin the digest of devcontainer features",
             "matchDepTypes": [
                 "feature"
