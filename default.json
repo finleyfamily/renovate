@@ -24,7 +24,8 @@
         "github>finleyfamily/renovate//presets/automerge-manager(npm)",
         "github>finleyfamily/renovate//presets/automerge-manager(pep621)",
         "github>finleyfamily/renovate//presets/automerge-manager(poetry)",
-        "github>finleyfamily/renovate//presets/lock-file-maintenance"
+        "github>finleyfamily/renovate//presets/lock-file-maintenance",
+        "github>finleyfamily/renovate//presets/python-build-system"
     ],
     "platformAutomerge": true,
     "semanticCommits": "disabled",

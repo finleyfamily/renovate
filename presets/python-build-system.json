@@ -1,0 +1,19 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "packageRules": [
+        {
+            "addLabels": [
+                "changelog:skip"
+            ],
+            "automerge": false,
+            "dependencyDashboardApproval": true,
+            "matchCategories": [
+                "python"
+            ],
+            "matchDepTypes": [
+                "build-system.requires"
+            ],
+            "rangeStrategy": "auto"
+        }
+    ]
+}
