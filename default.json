@@ -22,6 +22,7 @@
         "github>finleyfamily/renovate//presets/automerge-devcontainer",
         "github>finleyfamily/renovate//presets/automerge-github-actions",
         "github>finleyfamily/renovate//presets/automerge-manager(npm)",
+        "github>finleyfamily/renovate//presets/automerge-manager(pep621)",
         "github>finleyfamily/renovate//presets/automerge-manager(poetry)",
         "github>finleyfamily/renovate//presets/lock-file-maintenance"
     ],
