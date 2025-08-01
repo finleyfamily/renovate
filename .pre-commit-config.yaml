@@ -1,7 +1,3 @@
-default_language_version:
-  # node: system  # improve CI performance on GitLab but can result in errors using pre-commit.ci
-  node: lts
-
 exclude: |
   (?x)^(
     (.*/)?package-lock\.json|
