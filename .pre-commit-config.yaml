@@ -1,3 +1,7 @@
+ci:
+  skip:
+    - renovate-config-validator  # exceeds pre-commit.ci size limit
+
 exclude: |
   (?x)^(
     (.*/)?package-lock\.json|
